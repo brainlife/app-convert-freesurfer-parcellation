@@ -3,7 +3,7 @@
 set -x
 set -e
 
-anat=`jq -r '.t1' config.json
+anat=`jq -r '.t1' config.json`
 freesurfer=`jq -r '.freesurfer' config.json`
 parc=`jq -r '.parcellation' config.json`
 
